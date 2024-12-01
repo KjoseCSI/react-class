@@ -10,9 +10,9 @@ export default function BasicType() {
 
     return(
         <>
-         <div>BasicTypes</div>
-         {name} - {age} - {isActive ? 'Activo' : 'No Activo'} - {people.join(', ')}
-         
+            <div>BasicTypes</div>
+            {name} - {age} - {isActive ? 'Activo' : 'No Activo'} - {people.join(', ')}
+        
         </>
 
     )
