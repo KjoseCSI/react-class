@@ -5,6 +5,7 @@ import BasicFuntion from './typescript/BasicFuntion'
 import Counter from './components/Counter'
 import { AuthProvider } from './context/AuthContext'
 import LoginPage from './components/LoginPage'
+import UserPage from './components/UserPage'
 
 function App() {
 
@@ -23,6 +24,8 @@ function App() {
         <Counter/>
         <div>------------------</div>
         <LoginPage/>
+        <div>------------------</div>
+        <UserPage/>
       </div>
 
     </AuthProvider>
