@@ -6,6 +6,7 @@ import Counter from './components/Counter'
 import { AuthProvider } from './context/AuthContext'
 import LoginPage from './components/LoginPage'
 import UserPage from './components/UserPage'
+import { UserForm } from './components/UserForm'
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
     <AuthProvider>
 
       <div className='flex flex-col items-center h-svh'>
-
+        <UserForm/>
+        <div>------------------</div>
         <BasicType/>
         <div>------------------</div>
         <ObjectLiterals/>
@@ -26,6 +28,8 @@ function App() {
         <LoginPage/>
         <div>------------------</div>
         <UserPage/>
+        <div>------------------</div>
+        
       </div>
 
     </AuthProvider>

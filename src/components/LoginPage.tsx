@@ -16,7 +16,7 @@ if (state === 2) {
 if (state === 1) {
   return(
     <>
-      <h3>Te logiaron</h3>
+      <h3> Te has logeado</h3>
       <button className="bg-red-500 hover:bg-blue-300 text-white rounded-2xl mt-2 p-5" onClick={()=>logout()}>Logout</button>
 
     </>
